@@ -1,0 +1,97 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.2/schema.json",
+  "extends": ["ultracite"],
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**",
+      "!**/.js",
+      "!**/.d.ts",
+      "!**/_generated",
+      "!**/.basehub",
+      "!**/.expo",
+      "!**/.next",
+      "!**/.nuxt",
+      "!**/.react-email",
+      "!**/.source",
+      "!**/.turbo",
+      "!**/.vercel",
+      "!**/.wrangler",
+      "!**/.zed",
+      "!**/dev-dist",
+      "!**/dist-*",
+      "!**/dist",
+      "!**/drizzle/migrations",
+      "!**/node_modules",
+      "!**/routeTree.gen.ts",
+      "!**/src-tauri"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "lineWidth": 100
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "useAwait": "off",
+        "noExplicitAny": "off",
+        "noConsole": "off"
+      },
+      "style": {
+        "noUselessElse": "off",
+        "useBlockStatements": "off",
+        "useNodejsImportProtocol": "off",
+        "useReadonlyClassProperties": "off",
+        "noParameterAssign": "off",
+        "noNestedTernary": "off",
+        "noMagicNumbers": "off"
+      },
+      "complexity": {
+        "useLiteralKeys": "off",
+        "noExcessiveCognitiveComplexity": "off"
+      },
+      "correctness": {
+        "noEmptyPattern": "off"
+      },
+      "performance": {
+        "noBarrelFile": "off"
+      },
+      "nursery": {
+        "noShadow": "off",
+        "noUnnecessaryConditions": "off",
+        "useConsistentTypeDefinitions": "off"
+      }
+    }
+  },
+  "javascript": {
+    "globals": ["Bun", "Liveblocks"],
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "all",
+      "semicolons": "always",
+      "arrowParentheses": "always",
+      "bracketSpacing": true,
+      "bracketSameLine": false,
+      "quoteStyle": "double",
+      "attributePosition": "auto"
+    }
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "biomejs.biome",
+    "chunsen.bracket-select",
+    "davidanson.vscode-markdownlint",
+    "fabiospampinato.vscode-open-multiple-files",
+    "oven.bun-vscode",
+    "usernamehw.errorlens",
+    "usernamehw.remove-empty-lines",
+    "yoavbls.pretty-ts-errors",
+    "yzhang.markdown-all-in-one",
+    "mechatroner.rainbow-csv"
+  ]
+}

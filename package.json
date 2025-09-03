@@ -1,0 +1,30 @@
+{
+  "name": "@reliverse/relparse",
+  "version": "1.0.1",
+  "type": "module",
+  "module": "src/index.ts",
+  "scripts": {
+    "pub": "rse publish",
+    "relparse": "bun src/index.ts",
+    "check": "tsc --noEmit && biome check --write --unsafe"
+  },
+  "dependencies": {
+    "@reliverse/relico": "^1.4.0",
+    "cli-cursor": "^5.0.0",
+    "cli-spinners": "^3.2.0",
+    "is-interactive": "^2.0.0",
+    "is-unicode-supported": "^2.1.0",
+    "pretty-bytes": "^7.0.1",
+    "pretty-ms": "^9.2.0",
+    "stdin-discarder": "^0.2.2",
+    "string-width": "^8.1.0",
+    "strip-ansi": "^7.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.2",
+    "@reliverse/rse": "^1.7.28",
+    "@types/bun": "^1.2.21",
+    "typescript": "^5",
+    "ultracite": "^5.3.2"
+  }
+}
