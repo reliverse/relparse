@@ -10,7 +10,7 @@ export default defineConfig({
   projectName: "@reliverse/relparse",
   projectAuthor: "reliverse",
   projectDescription: "Multipurpose parsing CLI (optimized for Bun users only).",
-  version: "1.0.1",
+  version: "1.0.2",
   projectLicense: "Apache-2.0",
   projectState: "created",
   projectRepository: "unknown",

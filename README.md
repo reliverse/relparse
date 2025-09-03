@@ -12,19 +12,21 @@ Features:
 - Caching: optional response caching for HTML requests
 - Crawling: site-agnostic via CLI flags (multi-page category → target emails)
 
-Install dependencies:
+## Installation
 
 ```bash
-bun install
+bun add -D @reliverse/relparse
+# or globally: bun add -g @reliverse/relparse
 ```
 
-Usage:
+## Usage
 
 ```bash
 bun relparse <command> [options]
+# or globally: relparse <command> [options]
 ```
 
-Commands:
+## Commands
 
 - help: show help
 - version: show CLI version
